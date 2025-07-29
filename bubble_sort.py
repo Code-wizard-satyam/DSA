@@ -12,4 +12,4 @@ def bubble_sort(arr):
 unordered_list = [8,6,9,5,2]
 ordered_list = bubble_sort(unordered_list)
 
-print("Our shorted list is ", ordered_list)
+print("Our sorted list is ", ordered_list)

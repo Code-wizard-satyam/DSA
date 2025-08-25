@@ -1,0 +1,9 @@
+def sum_of_numbers(n):
+    if n==0:
+        return 0
+
+    small_ans = sum_of_numbers(n-1)
+    ans = small_ans + n
+    return ans
+
+print(sum_of_numbers(3))

@@ -1,0 +1,9 @@
+# power of a number(base, exponential)
+
+def power(base, exponent):
+    if exponent == 0:  
+        return 1
+    return base * power(base, exponent - 1)
+
+
+print(power(10,3))
